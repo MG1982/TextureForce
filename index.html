@@ -19,13 +19,21 @@
     />
     <!-- External CSS -->
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Texture Force</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand"
           ><img
             src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.png"
             height="30"
@@ -44,13 +52,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="#intro"
-                >Intro <span class="sr-only">(current)</span></a
+                >Intro</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Products & Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#gallery">Gallery</a>
@@ -60,45 +71,217 @@
             </li>
           </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
-    <!--Mask-->
-    <div id="intro" class="view">
-      <div class="mask rgba-black-strong">
-        <div
-          class="container-fluid d-flex align-items-center justify-content-center h-100"
-        >
-          <div class="row d-flex justify-content-center text-center">
-            <div class="col-md-10">
-              <!-- Heading -->
-              <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">
-                Texture Force
-              </h2>
+    <div id="intro">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-center h-100 overlay"
+      >
+        <div class="row d-flex justify-content-center text-center">
+          <div class="col-md-10">
+            <!-- Heading -->
+            <h2 class="display-4 font-weight-bold text-white pt-5 mb-2">
+              Texture Force
+            </h2>
 
-              <!-- Divider -->
-              <hr class="hr-light" />
+            <!-- Divider -->
+            <hr />
 
-              <!-- Description -->
-              <h4 class="white-text my-4">
-                Western Australia's leading acrylic texture company.
-              </h4>
-              <button type="button" class="btn btn-outline-white">
-                Read more<i class="fa fa-book ml-2"></i>
-              </button>
-            </div>
+            <!-- Description -->
+            <h4 class="text-white my-4">
+              Western Australia's leading acrylic texture company.
+            </h4>
           </div>
+          <a href="#about" class="btn btn-light" role="button">
+            Read more<i class="fa fa-book ml-2"></i>
+          </a>
         </div>
       </div>
     </div>
-    <!--/.Mask-->
+    <div id="about"></div>
+    <hr class="my-5">
+    <!--Main layout-->
+    <main class="mt-5">
+        <div class="container">
 
-    <!-- JQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.0.js"
-      integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
-      crossorigin="anonymous"
-    ></script>
+            <!--Section: Best Features-->
+            <section class="text-center">
+
+                <!-- Heading -->
+                <h2 class="mb-5 font-weight-bold">About</h2>
+
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center mb-4">
+
+                    <!--Grid column-->
+                    <div class="col-md-8">
+
+                        <!-- Description -->
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptate
+                            hic
+                            provident nulla repellat
+                            facere esse molestiae ipsa labore porro minima quam quaerat rem, natus repudiandae debitis
+                            est
+                            sit pariatur.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-5">
+                        <i class="fa fa-wrench fa-4x"></i>
+                        <h4 class="my-4 font-weight-bold">Renovation</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-home fa-4x"></i>
+                        <h4 class="my-4 font-weight-bold">Residential</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-building fa-4x"></i>
+                        <h4 class="my-4 font-weight-bold">Commercial</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+                <div id="services"></div>
+                <hr class="my-5">
+
+            <!--Section: Examples-->
+            <section class="text-center">
+
+                <!-- Heading -->
+                <h2 class="mb-5 font-weight-bold">Products & Services</h2>
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+
+                        <div class="view overlay z-depth-1-half">
+                            <img src="./assets/images/duluxAcratex.jpg" class="img-fluid" alt="Dulux Acratex">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">Dulux Acratex</h4>
+                        <p class="grey-text">Dulux AcraTex® products provide a textured finish that protects against render cracking and staining, to keep homes looking great for longer. Call in to your nearest Dulux AcraTex display centre to find out more about AcraTex Performance Coatings for cement render.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="view overlay z-depth-1-half">
+                            <img src="./assets/images/wattylGranosite.jpg" class="img-fluid" alt="">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">Wattyl Granosite</h4>
+                        <p class="grey-text">Wattyl Granosite® has been leading specialist texture coating since 1952. Wattyl Granosite® offers the complete coating system that meets the challenges of evolving substrates and construction techniques.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="view overlay z-depth-1-half">
+                            <img src="./assets/images/Sto.jpg" class="img-fluid" alt="">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">STO</h4>
+                        <p class="grey-text">Renowned for having a crack resistance six to 10 times more malleable than cement-based renders, Sto is an environmentally friendly, proven synthetic render system. ... “The product is also environmentally sensitive, reducing the harsh chemicals that are often used in other cladding systems.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+
+                        <div class="view overlay z-depth-1-half">
+                            <img src="./assets/images/tufftex.jpg" class="img-fluid" alt="">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">Tufftex</h4>
+                        <p class="grey-text">With a choice of over 3,000 colours and a wide variety of application styles to choose from, finish off your project with TUFFTEX Acrylic Texture Coating and enjoy a minimum 7 year warranty.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="view overlay z-depth-1-half">
+                            <img src="./assets/images/rockcote.jpg" class="img-fluid" alt="">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">ROCKCOTE</h4>
+                        <p class="grey-text">ROCKCOTE Textures add depth and dimension like no other wall coating. They are perfect for enhancing an architectural style, or evoking the natural beauty of sand, marble or stone. Designed for use under ROCKCOTE Armour Membrane Paint, they create attractive, tactile surfaces with character.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="view overlay z-depth-1-half">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/images/13.jpg" class="img-fluid" alt="">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">Heading</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--Section: Examples-->
+
+            <hr class="my-5">
+
     <!-- Bootstrap JS -->
     <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"

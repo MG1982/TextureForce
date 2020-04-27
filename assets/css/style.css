@@ -6,9 +6,20 @@ header,
 }
 
 #intro {
-  background: url("/assets/images/IMG_0024.jpg") no-repeat center center fixed;
+  background: url("/assets/images/Intro.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+.overlay {
+  background-color: rgb(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+}
+
+/* hr {
+  background-size: 4px;
+  border-top: 2px solid #ffffff;
+  border-color: #ffffff;
+} */
