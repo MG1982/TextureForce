@@ -14,11 +14,6 @@ header,
 }
 
 .page-footer {
-  /* background: url("/assets/images/11.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 100%; */
   background-color: rgb(32, 32, 32);
 }
 
@@ -32,6 +27,7 @@ h5 {
   color: rgb(255, 230, 13);
   text-shadow: 2px 2px 5px black;
 }
+
 .text-yellow {
   color: rgb(204, 204, 204);
 }
@@ -53,10 +49,11 @@ hr {
   border-top: 2px solid rgb(204, 204, 204);
   border-color: rgb(204, 204, 204);
 }
+
 .view {
-  -webkit-box-shadow: 7px 7px 25px 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 7px 7px 25px 1px rgba(0, 0, 0, 0.75);
-  box-shadow: 7px 7px 25px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.75);
 }
 
 .gallery {
@@ -67,10 +64,12 @@ hr {
   -moz-column-width: 33%;
   column-width: 33%;
 }
+
 .gallery .pics {
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
 }
+
 .gallery .animation {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
