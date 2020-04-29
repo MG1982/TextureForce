@@ -13,11 +13,22 @@ header,
   background-size: cover;
 }
 
+.page-footer {
+  /* background: url("/assets/images/11.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%; */
+  background-color: rgb(32, 32, 32);
+}
+
 .overlay {
   background-color: rgb(0, 0, 0, 0.6);
   backdrop-filter: blur(2px);
 }
-i {
+
+i,
+h5 {
   color: rgb(255, 230, 13);
   text-shadow: 2px 2px 5px black;
 }
@@ -27,8 +38,14 @@ i {
 
 p,
 h2,
-h4 {
+h4,
+li,
+a {
   color: rgb(77, 77, 77);
+}
+
+a:hover {
+  color: rgb(255, 230, 13);
 }
 
 hr {
@@ -36,8 +53,7 @@ hr {
   border-top: 2px solid rgb(204, 204, 204);
   border-color: rgb(204, 204, 204);
 }
-.view,
-.pics {
+.view {
   -webkit-box-shadow: 7px 7px 25px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 7px 7px 25px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 7px 7px 25px 1px rgba(0, 0, 0, 0.75);
