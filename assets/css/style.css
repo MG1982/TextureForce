@@ -18,8 +18,8 @@ header,
 }
 
 .overlay {
-  background-color: rgb(0, 0, 0, 0.6);
-  backdrop-filter: blur(2px);
+  background-color: rgb(0, 0, 0, 0.7);
+  backdrop-filter: blur(0px);
 }
 
 i,
@@ -28,7 +28,7 @@ h5 {
   text-shadow: 2px 2px 5px black;
 }
 
-.text-yellow {
+.text-intro {
   color: rgb(204, 204, 204);
 }
 
@@ -50,12 +50,13 @@ hr {
   border-color: rgb(204, 204, 204);
 }
 
-.view {
+.shadow {
   -webkit-box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.75);
 }
 
+/* Colour changed to blend in with footer */
 hr.clearfix {
   border-top: 2px solid rgb(32, 32, 32);
   border-color: rgb(32, 32, 32);
