@@ -5,6 +5,7 @@ header,
   height: 100%;
 }
 
+/* Intro Background Image */
 #intro {
   background: url("/assets/images/Intro.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -13,19 +14,10 @@ header,
   background-size: cover;
 }
 
-.page-footer {
-  background-color: rgb(32, 32, 32);
-}
-
+/* Satin Overlay for Intro Backgroud Image */
 .overlay {
   background-color: rgb(0, 0, 0, 0.7);
   backdrop-filter: blur(0px);
-}
-
-i,
-h5 {
-  color: rgb(255, 230, 13);
-  text-shadow: 2px 2px 5px black;
 }
 
 .text-intro {
@@ -40,8 +32,10 @@ a {
   color: rgb(77, 77, 77);
 }
 
-a:hover {
+i,
+h5 {
   color: rgb(255, 230, 13);
+  text-shadow: 2px 2px 5px black;
 }
 
 hr {
@@ -50,10 +44,21 @@ hr {
   border-color: rgb(204, 204, 204);
 }
 
+/* Products & Services Image drop shadow */
 .shadow {
   -webkit-box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.75);
+}
+
+/* Footer Background colour */
+.page-footer {
+  background-color: rgb(32, 32, 32);
+}
+
+/* Footer Links */
+a:hover {
+  color: rgb(255, 230, 13);
 }
 
 /* Colour changed to blend in with footer */
