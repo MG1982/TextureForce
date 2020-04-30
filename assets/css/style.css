@@ -56,6 +56,11 @@ hr {
   box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.75);
 }
 
+hr.clearfix {
+  border-top: 2px solid rgb(32, 32, 32);
+  border-color: rgb(32, 32, 32);
+}
+
 .gallery {
   -webkit-column-count: 3;
   -moz-column-count: 3;
