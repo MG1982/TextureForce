@@ -44,6 +44,11 @@ hr {
   border-color: rgb(204, 204, 204);
 }
 
+.fa-hand-pointer-o {
+  color: rgb(77, 77, 77);
+  text-shadow: none;
+}
+
 /* Products & Services Image drop shadow */
 .shadow {
   -webkit-box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.75);
