@@ -25,6 +25,7 @@ header,
 }
 
 p,
+h1,
 h2,
 h4,
 li,
@@ -92,6 +93,10 @@ hr.clearfix {
   transform: scale(1);
 }
 
+.contact {
+  margin-right: 5em;
+}
+
 @media (max-width: 450px) {
   .gallery {
     -webkit-column-count: 1;
@@ -100,5 +105,15 @@ hr.clearfix {
     -webkit-column-width: 100%;
     -moz-column-width: 100%;
     column-width: 100%;
+  }
+  .phone {
+    font-size: x-large;
+    margin-top: 0.5em;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact {
+    margin-right: 0em;
   }
 }
