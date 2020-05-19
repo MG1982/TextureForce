@@ -144,3 +144,14 @@ hr.clearfix {
     margin-right: 0em;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  /* Intro Background Image */
+  #intro {
+    background: url("/assets/images/Intro.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
