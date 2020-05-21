@@ -7,7 +7,7 @@ header,
 
 /* Intro Background Image */
 #intro {
-  background: url("/assets/images/Intro.jpg") no-repeat center center fixed;
+  background: url("/assets/images/Intro.jpg") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -148,7 +148,7 @@ hr.clearfix {
 @media only screen and (max-width: 767px) {
   /* Intro Background Image */
   #intro {
-    background: url("/assets/images/Intro.jpg") no-repeat center;
+    background: url("/assets/images/introMobileBg.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
