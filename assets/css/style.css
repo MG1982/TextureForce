@@ -65,6 +65,16 @@ hr {
 /* Footer Links */
 a:hover {
   color: rgb(255, 230, 13);
+  text-decoration: none;
+}
+
+.design {
+  filter: grayscale(100%);
+}
+
+.design:hover {
+  color: #fc4a1a;
+  filter: grayscale(0%);
 }
 
 /* Colour changed to blend in with footer */
